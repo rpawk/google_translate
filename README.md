@@ -13,6 +13,16 @@ from google_translate import Translator
 text = 'Hello world'
 lang = 'ko'
 
+tr = Translator(lang)
+translated = tr.translate(text)
+```
+
+``` python
+from google_translate import Translator
+
+text = 'Hello world'
+lang = 'ko'
+
 tr = Translator()
 translated = tr.translate(text, lang)
 ```
