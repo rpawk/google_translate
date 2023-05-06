@@ -27,5 +27,8 @@ tr = Translator()
 translated = tr.translate(text, lang)
 ```
 
+## Supported Languages
+[List](https://cloud.google.com/translate/docs/languages)
+
 ## Dependency
 - google-cloud-translate
